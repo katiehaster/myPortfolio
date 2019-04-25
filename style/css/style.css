@@ -1,10 +1,16 @@
 body, html {
     height: 100%; 
-    width: 100%; 
+    width: 100%;
+    margin: 0;   
+}
+
+#redWall {
+   
 }
 
 #welcomePage {
-    background-color: yellow;
+    border-left: red, 20px, solid;
+    background-color: rgb(255, 255, 106);
     background-size: cover;
     background-position: center;
     width: 100%;
@@ -21,23 +27,37 @@ body, html {
     position: absolute;
     text-align: center;
     top: 30%;
-    left: 50%;
+    left: 48%;
     margin-right: -50%;
     transform: translate(-50%, -50%);
-    color: black;
+    color: rgb(61,77,67);
 }
 
 #welcomeText:hover {
     text-decoration: none;
-    color: rgb(157, 216, 185);
+    color: rgb(249,211,224);
 }
 
 #portfolioNavbar{
-    background-color: rgb(115, 251, 62);
-    
+   background-color: rgb(249,211,224);
+   padding: 0;
+   padding-left: 15px;
+   line-height: 70px;
 }
-#portfolioPage {
-    
+
+.nav-link {
+    font-size: 20px;
+}
+
+
+#name {
+    font-size: 70px;
+    font-family: 'Cookie', cursive;
+}
+
+#portfolioBody {
+    background-image: url("../images/leaves.jpg");
+    background-repeat: repeat-y;
     background-size: cover;
     background-position: center;
     width: 100%;
@@ -47,103 +67,41 @@ body, html {
 }
 
 #portfolioBoxes {
-    
-    top: 16%;
-    left: 38%;
+    top: 25%;
+    left: 31%;
     position: absolute;
-
 }
 
 .projectBox {
-    height: 100px;
+    height: 110px;
     width: 150px;
-    /* background-color: rgb(226, 249, 211); */
     background-color: rgb(249,211,224);
     margin: 10px;
-    border: solid 2px;
+    border: solid 2.5px rgb(77, 74, 74);
     text-align: center;
     float: left; 
     border-radius: 8px;
     padding: 3px;
     font-family: 'Lato';
     font-size: 13px;
-}
-
-.firstFont {
+    color: black;
     font-family: 'Cookie', cursive;
     font-size: 28px;
     line-height: 30px;
 }
 
-/* .container {
-    border: 0;
-    padding: 0;
-    margin: 0;  
+#triviaBox:hover{
+    background-image: url(../images/cocktail.jpg);
+    background-image: center;
+    position: relative;
+    z-index: 3;
+    color: transparent;
 }
 
-.parallax {
-  background-image: url('../images/forest.jpg');
-  height: 100%; 
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: cover;
-}
-  
-#welcomeContent {
-    background-color: yellow;
-    height: 100%; 
-}
-
-#welcomeText {
-    text-align: center;
-    font-size: 60px;
-    padding-top: 275px;
-    font-family: 'Cookie', cursive;
-}
-
-#aboutMeContent {
-    background-color: pink;
-    height: 100%;
-}
-
-#photoDiv {
-    margin: auto;
-    margin-left: 30px;
-    padding-top: 50px;
-    display: block;
-}
-
-#photo {
-    border: solid;
-}
-
-
-#blurb {
-    margin: auto;
-}
-
-#portfolioContent {
-    background-color: greenyellow;
-    height: 100%;
-}
-
-.miniBox {
-    background-color: rebeccapurple;
-    height: 150px;
-    width: 150px;
-    display: inline;
-}
-
-#contactContent {
+#contactContainer {
     background-color: red;
-    height: 100%;
 }
 
-@media only screen and (max-width: 600px) {
-    #photo{
-        height: 350px;
-        width: 320px;
-        
-      
-    }
-} */
+#headshot {
+    border-radius: 50%;  
+}
