@@ -1,6 +1,6 @@
 body, html {
     height: 100%; 
-    /* width: 100%; */
+    width: 100% ;
     margin: 0;   
     padding: 0
 }
@@ -255,13 +255,13 @@ body, html {
     padding-right: 30%
 }   
 
-@media (max-width: 320px) 
-    {#welcomeText {
-        font-size: 62px;
+@media screen and (max-width: 320px) {
+    #welcomeText {
+        font-size: 12px;
     } 
      #portfolioBoxes {
         top: 9%;
-        padding-left: 190px;
+        padding-left: 185px;
     } 
     #portfolioBody {
         background-repeat: repeat-y
@@ -310,7 +310,7 @@ body, html {
     #portfolioBoxes {
         left: 50%;
         margin-left: -255px;
-    } }
+    }}
 
 @media (max-width: 1024px) 
     {#welcomeText {
@@ -319,7 +319,7 @@ body, html {
     #portfolioBoxes {
         left: 50%;
         margin-left: -255px;    
-    } }
+    }}
 
 
 
