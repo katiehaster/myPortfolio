@@ -5,11 +5,34 @@ body, html {
 }
 
 #redWall {
-   
+   float: left;
+   background-color: red;
+   width: 4%;
+   height: 100%;
+}
+
+#leavesWall {
+    float: left;
+    background-image: url("../images/leaves.jpg");
+    width: 9%;
+    height: 100%;
+}
+
+#pinkWall {
+    float: left;
+    background-color: rgb(249,211,224);
+    width: 3%;
+    height: 100%; 
+}
+
+#leavesWallAgain {
+    float: left;
+    background-image: url("../images/leaves.jpg");
+    width: 2%;
+    height: 100%; 
 }
 
 #welcomePage {
-    border-left: red, 20px, solid;
     background-color: rgb(255, 255, 106);
     background-size: cover;
     background-position: center;
@@ -27,15 +50,37 @@ body, html {
     position: absolute;
     text-align: center;
     top: 30%;
-    left: 48%;
+    left: 49%;
     margin-right: -50%;
     transform: translate(-50%, -50%);
-    color: rgb(61,77,67);
+    /* color: rgb(61,77,67); */
+    color: rgb(255, 192, 214); 
 }
 
 #welcomeText:hover {
     text-decoration: none;
     color: rgb(249,211,224);
+}
+
+#redWallRight {
+    float: right;
+    background-color: red;
+    width: 4%;
+    height: 100%;
+}
+
+#pinkWallRight {
+    float: right;
+    background-color: rgb(249,211,224);
+    width: 3%;
+    height: 100%;
+}
+
+#leavesWallRight {
+    float: right;
+    background-image: url("../images/leaves.jpg");
+    width: 4%;
+    height: 100%;
 }
 
 #portfolioNavbar{
@@ -49,10 +94,15 @@ body, html {
     font-size: 20px;
 }
 
-
 #name {
     font-size: 70px;
     font-family: 'Cookie', cursive;
+}
+
+#redBar {
+    width: 100%;
+    height: 6%;
+    background-color: red;
 }
 
 #portfolioBody {
@@ -95,7 +145,62 @@ body, html {
     background-image: center;
     position: relative;
     z-index: 3;
-    color: transparent;
+}
+
+#gifBox:hover {
+    background-image: url(../images/hp.jpg);
+    background-image: center;
+    position: relative;
+    z-index: 3;
+}
+
+#trainBox:hover {
+    background-image: url(../images/train.jpg);
+    background-image: center;
+    position: relative;
+    z-index: 3;
+}
+
+#fancyBox:hover {
+    background-image: url(../images/teddy.jpg);
+    background-image: center;
+    position: relative;
+    z-index: 3;
+}
+
+#dragBox:hover {
+    background-image: url(../images/alaska.jpg);
+    background-image: center;
+    position: relative;
+    z-index: 3;
+}
+
+#dateBox:hover {
+    background-image: url(../images/date.jpg);
+    background-image: center;
+    position: relative;
+    z-index: 3;
+}
+
+#liriBox:hover {
+    background-image: url(../images/liri.jpg);
+    background-image: center;
+    position: relative;
+    z-index: 3;
+}
+
+#pottyBox:hover {
+    background-image: url(../images/potty.jpg);
+    background-image: center;
+    position: relative;
+    z-index: 3;
+}
+
+#bamaBox:hover {
+    background-image: url(../images/bamazon.jpg);
+    background-image: center;
+    position: relative;
+    z-index: 3;
 }
 
 #contactContainer {
@@ -105,3 +210,26 @@ body, html {
 #headshot {
     border-radius: 50%;  
 }
+
+#yellowBar {
+    float: right;
+    background-color: yellow;
+    height: 100%;
+    z-index: 4;
+    width: 1%;
+    position: absolute;
+    right: 1%;
+    /* padding-right: 3%; */
+}
+
+#leavesBar {
+    float: right;
+    background-image: url("../images/leaves.jpg");
+    width: 6%;
+    height: 100%;
+    position: relative;
+}
+
+/* #leavesButton {
+    background-image: url("../images/leaves.jpg");
+} */
