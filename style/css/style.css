@@ -7,7 +7,7 @@ body, html {
 
 #redWall {
    float: left;
-   background-color: red;
+   background-color: #b7b7b7;
    width: 6%;
    height: 100%;
    position: absolute;
@@ -26,16 +26,27 @@ body, html {
 #pinkWall {
     float: left;
     background-color: rgb(249,211,224);
-    width: 10%;
+    width: 11%;
     height: 100%; 
     position: absolute;
     z-index: 3;
-    margin: 0
+}
+
+#grayWall {
+    float: left;
+    background-color: "#E1DEE3";
+    width: 2%;
+    height: 100%; 
+    position: absolute;
+    z-index: 5;
+    margin-right: 10%;
+
 }
 
 #leavesWallAgain {
     float: left;
     background-image: url("../images/leaves.jpg");
+    background-color: "#E1DEE3";
     width: 4%;
     height: 100%; 
     position: absolute;
@@ -43,7 +54,8 @@ body, html {
 }
 
 #welcomePage {
-    background-color: rgb(255, 248, 144);
+    /* background-color: rgb(255, 248, 144); */
+    background-color: #c4bbaf;
     background-size: cover;
     background-position: center;
     width: 100%;
@@ -53,9 +65,10 @@ body, html {
     z-index: 1
 }
 
+
 #welcomeText {
     font-family: 'Cookie', cursive;
-    font-size: 100px;
+    font-size: 100px; 
     padding-top: 275px;
     position: absolute;
     text-align: center;
@@ -63,29 +76,30 @@ body, html {
     left: 49%;
     margin-right: -50%;
     transform: translate(-50%, -50%);
-    color: rgb(255, 192, 214); 
+   color: rgb(249,211,224);
+    /* color: rgb(255, 192, 214);  */
 }
 
 #welcomeText:hover {
     text-decoration: none;
-    color: rgb(249,211,224);
+    text-shadow: 3px;
+    color: #5c4742;
 }
 
-#redWallRight {
+#brownWallRight {
     float: right;
-    background-color: red;
+    background-color: #b7b7b7;
     width: 1.75%;
     height: 100%;
     position: absolute;
     z-index: 5;
-    margin-left: 90%
+    margin-left: 92%
 }
 
 #pinkWallRight {
     float: right;
     background-color: rgb(249,211,224);
-    width: 3%;
-    padding: 1%;
+    width: 5%;
     height: 100%;
     position: absolute;
     z-index: 5;
@@ -126,11 +140,11 @@ body, html {
 
 #portfolioBody {
     background-image: url("../images/leaves.jpg");
-    /* background-repeat: repeat-y; */
+    background-repeat: repeat-y;
     background-size: cover;
     background-position: center;
     width: 100%;
-    height: 100%;
+    height: 1300px;
     margin: 0;
     padding: 0;
     position: relative;
@@ -225,7 +239,8 @@ body, html {
 }
 
 #contactNavbar {
-    background-image: url("../images/leaves.jpg");
+    background-image: url("../images/leaves2.jpg");
+    background-image: right;
     color: white;
     padding: 0;
     padding-left: 15px;
@@ -255,70 +270,67 @@ body, html {
     padding-right: 30%
 }   
 
-@media screen and (max-width: 320px) {
+@media (min-width: 320px) and (max-width: 360px) {
     #welcomeText {
-        font-size: 12px;
-    } 
-     #portfolioBoxes {
-        top: 9%;
-        padding-left: 185px;
-    } 
-    #portfolioBody {
-        background-repeat: repeat-y
+        font-size: 65px;
+    }
+    #portfolioBoxes {
+        top: 5%;
+        padding-left: 195px;
+    }
+    #redBar {
+        height: 2%
     }}
 
-@media (max-width: 360px) 
-    {#welcomeText {
-        font-size: 70px;
-    } 
-    #portfolioBoxes {
-        left: 50%;
-        margin-left: -75px;
-    } }
-
-@media (max-width: 375px) 
+@media (min-width: 375px) and (max-width: 410px)
     {#welcomeText {
         font-size: 80px;
     } 
+    #redBar {
+        height: 2%
+    }
     #portfolioBoxes {
-        left: 50%;
-        margin-left: -150px;
+        top: 5%;
+        padding-left: 195px;
     }}
 
-@media (max-width: 411px) 
-    {#welcomeText {
-        font-size: 80px;
-    } 
-    #portfolioBoxes {
-        left: 50%;
-        margin-left: -75px;
-    }}
-
-@media (max-width: 414px) 
+@media (min-width: 411px) and (max-width: 600px)
     {#welcomeText {
         font-size: 85px;
     } 
+    #redBar {
+        height: 2%
+    }
     #portfolioBoxes {
-        left: 50%;
-        margin-left: -75px;
+        top: 5%;
+        padding-left: 195px;
     }}
 
-@media (max-width: 768px) 
+@media (min-width: 768px) and (max-width: 800px)
     {#welcomeText {
         font-size: 120px;
     }
+    #redBar {
+        height: 2%
+    }
     #portfolioBoxes {
-        left: 50%;
-        margin-left: -255px;
+        top: 10%;
+        padding-left: 25px;
     }}
 
-@media (max-width: 1024px) 
+@media (min-width: 1024px) 
     {#welcomeText {
         font-size: 150px;
     }
+    #redBar {
+        height: 2%
+    }
     #portfolioBoxes {
+        top: 10%;
         left: 50%;
-        margin-left: -255px;    
+    }
+    #portfolioBody {
+    height: 100%;
     }}
 
 
