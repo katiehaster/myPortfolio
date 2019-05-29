@@ -148,7 +148,7 @@ body, html {
 }
 
 #portfolioBoxes {
-    top: 15%;
+    top: 7%;
     left: 50%;
     margin-left: -270px;
     position: absolute;
@@ -244,20 +244,35 @@ body, html {
     line-height: 70px;
 }
 
-#contactContainer {
+/* #contactContainer {
     background-color: #b7b7b7;
-}
+} */
 
 #headshot {
     border-radius: 50%;  
-    margin-left: 15%;
-    margin-top: 15%
+    margin-top: 15%;
+    left: 50%;
+    margin-left: -160px;
+    position: absolute
 }
 
 #aboutMe {
-    padding-top: 20%;
-    padding-right: 30%
+    margin-top: 20%;
+    padding: 5%;
+    margin-right: 10%;
+    margin-left: 10%;
+    background-color: rgb(196, 187, 175, .4);
 }   
+
+#leftSide {
+    background-color: #B7B7B7;
+    height: 100vh
+}
+
+#rightSide {
+    background-color: #f9d3e0; 
+    height: 100vh 
+}
 
 @media (min-width: 320px) and (max-width: 360px) {
     #welcomeText {
