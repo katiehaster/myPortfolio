@@ -245,10 +245,6 @@ body, html {
     line-height: 70px;
 }
 
-/* #contactContainer {
-    background-color: #b7b7b7;
-} */
-
 #headshot {
     border-radius: 50%;  
     margin-top: 9%;
@@ -297,6 +293,12 @@ body, html {
     #portfolioBoxes {
         top: 5%;
         padding-left: 195px;
+    }
+    #leftSide {
+        height: 70vh
+    }
+    #rightSide {
+        height: 70vh
     }}
 
 @media (min-width: 411px) and (max-width: 600px)
@@ -309,6 +311,12 @@ body, html {
     #portfolioBoxes {
         top: 5%;
         padding-left: 195px;
+    }
+    #leftSide {
+        height: 60vh
+    }
+    #rightSide {
+        height: 60vh
     }}
 
 @media (min-width: 768px) and (max-width: 800px)
