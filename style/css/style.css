@@ -283,10 +283,10 @@ body, html {
         height: 2%
     }
     #leftSide {
-        height: 70vh
+        height: 80vh
     }
     #rightSide {
-        height: 70vh
+        height: 80vh
     }}
 
 @media (min-width: 375px) and (max-width: 410px)
