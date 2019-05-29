@@ -118,6 +118,7 @@ body, html {
    padding: 0;
    padding-left: 15px;
    line-height: 70px;
+  
 }
 
 .nav-link {
@@ -250,14 +251,14 @@ body, html {
 
 #headshot {
     border-radius: 50%;  
-    margin-top: 15%;
+    margin-top: 9%;
     left: 50%;
     margin-left: -160px;
     position: absolute
 }
 
 #aboutMe {
-    margin-top: 20%;
+    margin-top: 15%;
     padding: 5%;
     margin-right: 10%;
     margin-left: 10%;
