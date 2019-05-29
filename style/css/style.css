@@ -281,6 +281,12 @@ body, html {
     }
     #redBar {
         height: 2%
+    }
+    #leftSide {
+        height: 70vh
+    }
+    #rightSide {
+        height: 70vh
     }}
 
 @media (min-width: 375px) and (max-width: 410px)
@@ -329,6 +335,12 @@ body, html {
     #portfolioBoxes {
         top: 10%;
         padding-left: 25px;
+    }
+    #leftSide {
+        height: 50vh
+    }
+    #rightSide {
+        height: 50vh
     }}
 
 @media (min-width: 1024px) 
@@ -344,6 +356,12 @@ body, html {
     }
     #portfolioBody {
     height: 100%;
+    }
+    #leftSide {
+        height: 100vh
+    }
+    #rightSide {
+        height: 100vh
     }}
 
 
