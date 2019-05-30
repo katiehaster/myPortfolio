@@ -321,10 +321,10 @@ body, html {
         padding-left: 195px;
     }
     #leftSide {
-        height: 80vh
+        height: 60vh
     }
     #rightSide {
-        height: 80vh
+        height: 60vh
     }}
 
 @media (min-width: 768px) and (max-width: 800px)
@@ -339,10 +339,10 @@ body, html {
         padding-left: 25px;
     }
     #leftSide {
-        height: 100vh
+        height: 50vh
     }
     #rightSide {
-        height: 100vh
+        height: 50vh
     }}
 
 @media (min-width: 1024px) 
